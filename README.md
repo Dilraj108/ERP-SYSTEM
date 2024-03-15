@@ -16,7 +16,7 @@ Clone the repository from https://github.com/Dilraj108/ERP-SYSTEM.
 Navigate to the project directory in your terminal.
 Install dependencies by running npm install.
 Start the development server with npm run dev.
-Access the application through your web browser at http://localhost:3000.
+Access the application through your web browser at http://localhost:5173/.
 
 **Usage:-**
 Dashboard: Upon accessing the application, you'll land on the dashboard displaying key metrics and links to different modules.
