@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+td{
+    text-align: center;
+    padding: 0px;
+}
+
+#editinput{
+    text-align: center;
+    padding: 0px;
+    width: 100px;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px lightblue;
+}
+#addnewinput{
+    text-align: center;
+    padding: 0px;
+    
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px lightblue;
+}
+#tablehead{
+    width: 100px;
+}
+#tableData{
+    width: 100px;
+}
+.tableRow{
+    padding-bottom: 40px;
+}
+.Table{
+        width: 100%;
+        border-bottom-style: solid ; 
+        border-bottom-color: black;
+        border-bottom-width: 2px;
+}
+.Upadtebtn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(112, 237, 116);
+    padding: 3px;
+}
+.deletebtn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 85, 103);
+    padding: 3px;
+}
+.adnewdiv{
+    margin-left: 20%;
+}
+.cnlbtn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 85, 103);
+    padding: 3px;
+}
+.addnew{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(112, 237, 116);
+    padding: 3px;
+    margin-left: 85%; 
+    margin-top: 15px;
+    padding: 9px;
+}
+.listIcon{
+    size: 20px;
+}
+.left-nav-bar{
+    height: 90vh;
+    width: 30vh;
+    background-color: rgb(155, 170, 187);
+    border-style: solid ;
+    border-color: chocolate;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.onlyList{
+    margin-left: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #555;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px;
+  }
+  #hover:hover{
+    background: rgb(197, 197, 248);
+    border-width: 2px;
+    box-shadow: 0 4px 6px rgba(204, 20, 20, 0.1);  
+    transform: scale(1.1);  
+  }
+ 
+  .sidebar{
+    
+    color:#131212;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  .sidebar-product{
+  --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));  }
+  .top{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  .logo{
+    size: 30px;
+    color:white
+  }
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+    
+  }
+  .link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap:15px
+  
+
+    
+  }
+  .link:hover{
+    background: lightblue;
+    color: #000;
+    
+
+
+  }
+  .active{
+    background: lightblue;
+    color: #000;
+    transition: all 0.5s;
+  }
+  .icon,.link_text{
+    font-size: 20px;
+  }
+  .updatetable{
+   
+    margin-left: 25px;
+
+  }
+  .update-tablerow{
+    text-align: left;
+    padding: 10px;
+  }
+  .updateStatus{
+    padding: 10px;
+  }
+.save-order{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(218, 218, 14);
+    padding: 3px;
+}
+.statusinput{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(218, 218, 14);
+}
+.product-table{
+   
+    width: 100%;
+}
+h2{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(232, 245, 137);
+    color: chocolate;
+}
+
