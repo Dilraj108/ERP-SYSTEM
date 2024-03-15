@@ -12,7 +12,7 @@ Orders Management: Enables users to manage customer orders, including viewing or
 Sidebar Navigation: Offers a sidebar navigation menu for easy navigation between different modules.
 
 **Installation:-**
-Clone the repository from [GitHub Repo URL].
+Clone the repository from https://github.com/Dilraj108/ERP-SYSTEM.
 Navigate to the project directory in your terminal.
 Install dependencies by running npm install.
 Start the development server with npm run dev.
